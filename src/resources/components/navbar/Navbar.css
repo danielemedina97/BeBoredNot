@@ -1,0 +1,30 @@
+
+
+#navbar{
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    font-size: 45px;
+}
+.heading{
+    text-align: left;
+}
+
+#navbar-options {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+#navbar-options li {
+    display: inline-block;
+    padding: 0px 100px;
+    font-weight: bold;
+}
+
+
+#navbar-options li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 3px #0e0000, 0 0 5px #00000c;
+}
