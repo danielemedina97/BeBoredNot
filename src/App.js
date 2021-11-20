@@ -1,21 +1,34 @@
-import { getSuggestedQuery } from '@testing-library/dom';
+//import { getSuggestedQuery } from '@testing-library/dom';
 import './App.css';
 import Navbar from './resources/components/navbar/Navbar';
 import ActivityForm from './resources/components/activity-form/ActivityForm';
 import Results from './resources/components/results/Results';
+import { useState, useEffect, useRef } from 'react';
 
 function App() {
   
 
 
-  var data = fetch('http://www.boredapi.com/api/activity/')
-  .then(response => response.json())
-.then(data=>console.log(data)).catch(error=>console.log("Error: " + error));
+  var data = null;
+
+  const [queryData, setQueryData] = useState(null);
+
+  const isMounted = useRef(false);
+  
+  useEffect(() => {
+    if(isMounted.current){
+    console.log("Hello World");
+    } else {
+      isMounted.current = true;
+    }
+  }, [queryData]);
+  
 
 let getQuery = async (queryURL) => {
-  let data = await fetch(queryURL)
+  data = await fetch(queryURL)
   data =  await data.json();
   console.log(data);
+  setQueryData(data);
 }
 
   const handleSubmit = (e) => {
