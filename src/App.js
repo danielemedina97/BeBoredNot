@@ -17,7 +17,7 @@ function App() {
   
   useEffect(() => {
     if(isMounted.current){
-    console.log("Hello World");
+    document.getElementById("activitySpan").textContent = "Hello World";
     } else {
       isMounted.current = true;
     }
