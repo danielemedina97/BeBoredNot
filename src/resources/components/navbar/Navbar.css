@@ -4,6 +4,12 @@
     padding: 10px 0px 10px 0px;
     margin: 0px;
     font-size: 45px;
+    background-color: rgb(62, 65, 57);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    padding-left: 50px;
+    font-style: bold;
+    font-family: Impact, fantasy;
 }
 .heading{
     text-align: left;

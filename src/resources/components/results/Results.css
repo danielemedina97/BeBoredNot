@@ -1,3 +1,24 @@
-.results{
-    /*text-align: center; */
+#result-body {
+    color: rgb(255, 255, 255);
+    font-family: Impact, fantasy;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: rgb(62, 65, 57);
+    width: 600px;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+.results-wrapper{
+    font-size: 17px;
+    text-align: left;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.results-wrapper .result{
+    display: flex;
+    padding-left: 175px;
+    padding-bottom:5px ;
 }

@@ -32,4 +32,54 @@ label {
 
 
 
+#results-section{
+  color: white;
+  font-family:sans-serif;
+  
+}
 
+#activity-form-border {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+#activity-form-wrapper {
+  padding: 20px;
+  background-color: rgb(62, 65, 57);
+}
+
+#suggestion-here{
+  color: rgb(255, 255, 255);
+  font-family: Impact, fantasy;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+#loading {
+  color: rgb(255, 255, 255);
+  font-family: Impact, fantasy;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#no-result {
+  color: rgb(255, 255, 255);
+  font-family: Impact, fantasy;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#results-wrapper{
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+}
