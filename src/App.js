@@ -33,7 +33,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setMadeQuery(true);
-    var queryURL = "http://www.boredapi.com/api/activity/";
+    var queryURL = "https://www.boredapi.com/api/activity/";
     var values = Array.from(document.getElementsByClassName("activity"));
     //let isEmptyQuery = true;//if empty, the query will be random.
     var numFields = 0;
