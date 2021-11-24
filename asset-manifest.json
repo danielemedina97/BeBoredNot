@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/be-bored-not/static/css/main.fd7c60e5.chunk.css",
-    "main.js": "/be-bored-not/static/js/main.b8438849.chunk.js",
-    "main.js.map": "/be-bored-not/static/js/main.b8438849.chunk.js.map",
+    "main.js": "/be-bored-not/static/js/main.9be039b7.chunk.js",
+    "main.js.map": "/be-bored-not/static/js/main.9be039b7.chunk.js.map",
     "runtime-main.js": "/be-bored-not/static/js/runtime-main.6ed3ff02.js",
     "runtime-main.js.map": "/be-bored-not/static/js/runtime-main.6ed3ff02.js.map",
     "static/js/2.edaae414.chunk.js": "/be-bored-not/static/js/2.edaae414.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6ed3ff02.js",
     "static/js/2.edaae414.chunk.js",
     "static/css/main.fd7c60e5.chunk.css",
-    "static/js/main.b8438849.chunk.js"
+    "static/js/main.9be039b7.chunk.js"
   ]
 }
