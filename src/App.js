@@ -4,6 +4,7 @@ import Navbar from './resources/components/navbar/Navbar';
 import ActivityForm from './resources/components/activity-form/ActivityForm';
 import Results from './resources/components/results/Results';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 function App() {
   
@@ -61,6 +62,11 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name='viewport' content="width=device-width, initial-scale=1.0"/>
+        <title>Be Bored Not </title>
+      </Helmet>
       <div className="app-body">
         <Navbar/>
         <div id="activity-form-border">
